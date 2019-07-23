@@ -1,5 +1,5 @@
 {
-  "name": "oxcom/devutils-mails",
+  "name": "oxid-community/devutils-mails",
   "description": "Analysis module for finding problematical shop data.",
   "type": "oxideshop-module",
   "keywords": [
@@ -14,20 +14,16 @@
     "GNU"
   ],
   "require": {
-    "oxcom/devutils-core": "*"
+    "oxid-community/devutils-core": "*"
   },
-  "version": "1.3.0",
   "extra": {
     "oxideshop": {
-      "blacklist-filter": [
-        "docs/**/*.*"
-      ],
-      "target-directory": "oxcom/devutils-mails"
+      "target-directory": "oxid-community/devutils-mails"
     }
   },
   "autoload": {
     "psr-4": {
-      "OxidCommunity\\DevutilsMails\\": "../../../source/modules/oxcom/devutils-mails/"
+      "OxidCommunity\\DevutilsMails\\": "../../../source/modules/oxid-community/devutils-mails/"
     }
   }
 }
