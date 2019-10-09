@@ -17,6 +17,6 @@ $aModule = [
         'dev_mails' => OxidCommunity\DevutilsMails\Controller\Mails::class
     ],
     'templates'   => [
-        'dev_mails.tpl' => 'oxcom/devutils-mails/views/dev_mails.tpl'
+        'dev_mails.tpl' => 'oxid-community/devutils-mails/views/dev_mails.tpl'
     ],
 ];
